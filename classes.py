@@ -109,7 +109,7 @@ class Player(circle):
             if dis.magnitude()<self.InfluenceRange and not NullForce:
                 #adding friction and force
                 i.force(dis*self.ChildForce)
-                i.force(i.velocity*-self.SelfFriction)
+                i.force(i.velocity*-self.ChildFriction)
                 i.timer = self.ChildrenLifetime
 
             else:

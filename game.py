@@ -6,7 +6,7 @@ clock = pygame.time.Clock()
 window = pygame.display.set_mode((1920,1000))
 
 
-a = Player(vector(500,500),1,(150,200,200),5,500,(100,750),0.001,(200,200,200),0.01,0.1,0.001*5,0.001/2,100,100)
+a = Player(vector(500,500),1,(150,200,200),5,500,(100,250),0.001,(200,200,200),0.01,0.1,0.001,0.001*5,100,100)
 
 pygame.mouse.set_visible(False)
 reset = False
